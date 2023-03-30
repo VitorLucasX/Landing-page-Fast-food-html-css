@@ -1,0 +1,808 @@
+body {
+    background: black;
+}
+
+* {
+    font-family: "MontSerrat";
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------ CABECÁRIO ------- */
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(226, 175, 9);
+    text-align: center;
+    font-family: 'Montserrat';
+}   
+
+.logo {
+   width: 40px;
+   position: relative;
+   right: 1155px;
+}
+
+#bhburguer {
+    background: rgb(49, 39, 39);
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+#bhburguer ul {
+   position: absolute;
+   display: inline;
+   padding-top: 10px;
+}
+
+#bhburguer li {
+    margin: 0 0 0 15px;
+    display: inline;
+
+}
+
+#bhburguer a:hover {
+    color: rgb(173, 173, 173);
+
+}
+
+#bhburguer a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#icones li {
+    position: absolute;
+}
+
+#icones .instagram {
+    width: 30px;
+    left: 13em;
+    position: absolute;
+    border-radius: 10px;
+}
+
+
+#icones .twitter {
+    width: 30px;
+    left: 15em;
+    position: absolute;
+    border-radius: 10px;
+}
+
+#icones .facebook {
+    width: 30px;
+    left: 17em;
+    position: absolute;
+    border-radius: 10px;
+}
+
+/* ----BACKGROUND DE INÍCIO E PEÇAJÁ---- */
+#welcome .angus {
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    right: 850px;
+    padding-top: 230px;
+    color: white;
+}
+
+
+.pecaja {
+    display: inline-block;
+    position: absolute;
+    right: 600px;
+    margin-top: 280px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+.pecaja:hover {
+    color: rgb(252, 196, 94);
+    border: 3px solid rgb(226, 175, 9);
+}
+
+#welcome {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url(img/hamburguer5.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+/* ------ INÍCIO DO COMBO ------ */
+#combos .comboss {
+    color: white;
+    font-size: 25px;
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
+#combos h2 {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    right: 750px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#combos {
+    background: rgb(49, 39, 39);
+    height: 100vh;
+}
+
+/* ------- COMBO 1 HAMBURGUER ----- */
+#hamburguers .imagem1 {
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+
+}
+
+#hamburguers .theangusburguer1 {
+    display: flex;
+    position: absolute;
+    left: 400px;
+    padding-top: 120px;
+    color: white;
+}
+
+#hamburguers h1 {
+    font-size: 25px;
+}
+
+#hamburguers .theangusburguer {
+    position: relative;
+    right: 150px;
+    padding-top: 70px;
+}
+
+#hamburguers .acompanhamento1 {
+    position: relative;
+    right: 378px;
+    padding-top: 180px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.selolactose1 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    right: 630px;
+    margin-top: 255px;
+}
+
+.selogluten1 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    right: 700px;
+    margin-top: 255px;
+
+
+}
+
+/* -------- COMBO 2 HAMBURGUER ------- */
+#hamburguers .imagem2 {
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+}
+
+#hamburguers .theribsburguer2 {
+    display: flex;
+    position: relative;
+    left: 1100px;
+    padding-top: 120px;
+    color: white;
+}
+
+#hamburguers .theribsburguer {
+    position: relative;
+    right: 122px;
+    padding-top: 70px;
+
+}
+
+#hamburguers .acompanhamento2 {
+    position: relative;
+    right: 350px;
+    padding-top: 180px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.selolactose2 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    margin-top: 255px;
+}
+
+.selogluten2 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    left: 30px;
+    margin-top: 255px;
+}
+
+
+/* -------- COMBO 3 HAMBURGUER ------- */
+
+#hamburguers .imagem3 {
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+}
+
+#hamburguers .thebeachburguer3 {
+    display: flex;
+    position: absolute;
+    left: 400px;
+    padding-top: 120px;
+    color: white;
+}
+
+#hamburguers .thebeachburguer {
+    position: relative;
+    right: 150px;
+    padding-top: 70px;
+}
+
+#hamburguers .acompanhamento3 {
+    position: relative;
+    right: 370px;
+    padding-top: 180px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.selogluten3 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    left: 1px;
+    margin-top: 255px;
+}
+
+.selolactose3 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    right: 720px;
+    margin-top: 255px;
+
+}
+
+.selohot3 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: relative;
+    right: 720px;
+    margin-top: 255px;
+    right: 41em;
+   
+}
+
+/* -------- COMBO 4 HAMBURGUER ------- */
+
+#hamburguers .imagem4 {
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    right: 20px;
+}
+
+#hamburguers .thecheddarburguer4 {
+    display: flex;
+    position: relative;
+    left: 1100px;
+    padding-top: 120px;
+    color: white;
+}
+
+#hamburguers .thecheddarburguer {
+    position: relative;
+    right: 175px;
+    padding-top: 70px;
+
+}
+
+#hamburguers .acompanhamento4 {
+    position: relative;
+    right: 430px;
+    padding-top: 180px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.selolactose4 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    left: 100px;
+    margin-top: 255px;
+}
+
+.selogluten4 {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    left: 30px;
+    margin-top: 255px;
+}
+
+/* -------------------------- */
+
+#costela {
+    background-image:  linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(img/costela.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+#costela h2 {
+    position: absolute;
+    display: inline;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    left: 9em;
+    padding-top: 150px;
+}
+
+#costela p {
+    position: absolute;
+    display: inline;
+    color: white;
+    left: 9em;
+    padding-top: 230px;
+    text-align: center;
+
+}
+
+.botao-churrasco {
+    position: absolute;
+    display: inline;
+    left: 22em;
+    margin-top: 350px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    box-sizing: border-box;
+    border: 3px solid white;
+}
+
+.botao-churrasco:hover {
+    color: rgb(252, 196, 94);
+    border: 3px solid rgb(226, 175, 9);
+}
+
+#barraseparacao1 {
+    background: rgb(49, 39, 39);
+    height: 9vh;
+}
+
+/* ----------FAIXADA DE DELIVERY---------------- */
+
+#deliverybh {
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(img/sobremesa.png);
+    background-position: center;
+    background-size: cover;
+    height: 20vh;
+
+}
+
+#delivery, h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: bold;
+    padding-top: 50px;
+    text-transform: uppercase;
+
+}
+
+#deliverybh p {
+    position: absolute;
+    color: white;
+    left: 50em;
+    padding-top: 10px;
+}
+
+/* ----------ERICK JACQUIN---------------- */
+
+#barraseparacao2 {
+    background: rgb(49, 39, 39);
+    height: 9vh;
+}
+
+#erick-jacquin {
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(img/jacquin.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+#erick-jacquin h3 {
+    color: rgb(226, 175, 9);
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-decoration: underline;
+    font-weight: bold;
+    left: 8em;
+    padding-top: 140px;
+}
+
+#erick-jacquin h4 {
+    color: white;
+    font-size: 64px;
+    position: absolute;
+    padding-top: 195px;
+    text-transform: uppercase;
+    left: 4em; 
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#erick-jacquin .jacquin {
+    color: white;
+    text-transform: uppercase;
+    font-size: 64px;
+    position: absolute;
+    padding-top: 270px;
+    font-weight: bold;
+    left: 170px;
+}
+
+#erick-jacquin .chef-experiencia {
+    color: white;
+    font-size: 15px;
+    text-transform: none;
+    position: absolute;
+    right: 20em;
+    margin-top: 300px;
+    text-align: center;
+    border: 10px solid black;
+    height: 180px;
+    background: black;
+    padding-top: 40px;
+    font-family: sans-serif;
+    width: 270px;
+} 
+
+#erick-jacquin .conheca-historia {
+    position: absolute;
+    right: 320px;
+    margin-top: 510px;
+    color: white;
+    background: transparent;
+    font-size: 17px;
+    border: 3px solid white;
+    width: 230px;
+    height: 50px;
+    text-align: center;
+
+}
+
+#erick-jacquin .conheca-historia:hover {
+    color: rgb(252, 196, 94);
+    border: 3px solid rgb(226, 175, 9);
+}
+
+/*--------------------------*/
+
+#barraseparacao3 {
+    background: rgb(255, 157, 28);
+    height: 7vh;
+}
+
+.material-symbols-outlined {
+    color: black;
+    position: absolute;
+    left: 21em;
+    padding-top: 20px;
+    
+}
+
+#barraseparacao3 > p {
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 35em;
+    padding-top: 25px;
+    font-weight: bold;
+
+}
+
+.botao-procurarlojas {
+    position: absolute;
+    left: 86em;
+    margin-top: 15px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 2px solid;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.botao-procurarlojas:hover {
+    color: orangered;
+}
+
+
+/*----------RODAPÉ----------------*/
+#rodape {
+    background: rgb(49, 39, 39);
+    height: 100vh;
+}
+
+#rodape .titulos-rodape1 {
+    display: block;
+    position: absolute;
+    right: 90em;
+    padding-top: 5em;
+}
+
+.titulos-rodape1  a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.titulos-rodape1 li {
+    padding: 0 0 9px;
+}
+
+.titulos-rodape1 strong {
+    color: white;
+    font-weight: bold;
+}
+
+.titulos-rodape1 a:hover {
+    color: white;
+}
+/*----------RODAPÉ----------------*/
+
+#rodape .titulos-rodape2 {
+    display: block;
+    position: absolute;
+    right: 70em;
+    padding-top: 5em;
+}
+
+.titulos-rodape2  a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.titulos-rodape2 li {
+    padding: 0 0 9px;
+}
+
+.titulos-rodape2 strong {
+    color: white;
+    font-weight: bold;
+}
+
+.titulos-rodape2 a:hover {
+    color: white;
+}
+
+/*----------RODAPÉ----------------*/
+
+#rodape .titulos-rodape3 {
+    display: block;
+    position: absolute;
+    right: 70em;
+    padding-top: 10em;
+}
+
+.titulos-rodape3  a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
+
+.titulos-rodape3 li {
+    padding: 0 0 9px;
+}
+
+.titulos-rodape3 strong {
+    color: white;
+    font-weight: bold;
+}
+
+.titulos-rodape3 a:hover {
+    color: white;
+}
+
+/*----------RODAPÉ----------------*/
+
+#rodape .titulos-rodape4 {
+    display: block;
+    position: absolute;
+    right: 50em;
+    padding-top: 5em;
+}
+
+.titulos-rodape4  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.titulos-rodape4 li {
+    padding: 0 0 24px;
+}
+
+/*----------RODAPÉ----------------*/
+
+#rodape .titulos-rodape5 {
+    display: block;
+    position: absolute;
+    right: 30em;
+    padding-top: 5em;
+}
+
+.titulos-rodape5  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.titulos-rodape5 li {
+    padding: 0 0 24px;
+}
+
+/*----------RODAPÉ----------------*/
+
+#rodape2 h1 {
+    display: inline;
+    color: rgb(255, 255, 159);
+    font-size: 16px;
+    position: absolute;
+    right: 40em;
+    padding-top: 23em;
+    font-weight: normal;
+}
+
+#rodape p {
+    position: absolute;
+    right: 35em;
+    color: rgb(168, 168, 168);
+    font-size: 15px;
+    padding-top: 28em;
+    text-align: center;
+}
+
+#rodape strong {
+    color: white;
+    font-weight: 100;
+}
+
+/*----------RODAPÉ----------------*/
+
+#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 40em;
+    padding-top: 500px;    
+}
+
+#formulario input {
+    margin: 0 25px;
+    background: black;
+    border: none;
+    height: 40px;
+    width: 300px;
+    
+}
+
+input::placeholder {
+    color: rgb(255, 255, 159);
+    padding: 7px;
+    font-weight: 50%;
+
+}
+
+input {
+    color: rgb(255, 255, 159);
+}
+
+.ok {
+    position: absolute;
+    margin-top: 500px;
+    right: 60em;
+    background: transparent;
+    width: 45px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 5%;
+    font-size: 10px;
+    border-radius: 50%;
+}
+
+ #ultimo-rodape .titulosultimo-rodape {
+    position: absolute;
+    display: block;
+    padding-top: 35em;
+    right: 43em;
+}
+
+.titulosultimo-rodape li {
+    text-align: center;
+    margin: 0 0 50px;
+    color: rgb(168, 168, 168);
+}
+
+.titulosultimo-rodape a:hover {
+    color: rgb(255, 255, 159);
+    text-decoration: none;
+}
+
+.iconeleed {
+    width: 94px;
+    position: absolute;
+    right: 59em;
+    margin-top: 750px;
+}
+
